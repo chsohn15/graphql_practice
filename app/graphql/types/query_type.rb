@@ -11,7 +11,6 @@ module Types
       argument :id, ID, required: true 
     end 
 
-
     def user(id:)
       User.find(id)
     end
